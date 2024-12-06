@@ -3,7 +3,7 @@ from tkinter import filedialog
 import tkinter
 
 tkinter.Tk().withdraw()
-
+#note-This might have errors and it isnt made for commercial use
 def main():
 	def contrast_adjust():
 		myimg = filedialog.askopenfilename()
